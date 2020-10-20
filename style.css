@@ -5,19 +5,23 @@ html{
 
 
 
-/* Type selector: body, h1, & p
-    Id selector: blog
-    Class selector: blog posts
+/* Type selector: body, h1, div & p
+    Id selector: #blog
+    Class selector: .blog posts
+    attribute selector: a[title]{}
 */
 
 /* Index html */
-
+a[title]{
+    font-size: 4em;
+    color: black;
+}
 /* Modifies all of the document */
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 40px;
     padding: 40px;
-    color: #242424;
+    color: black;;
     border-top: 10px solid #242424;
     background: #fff;
     }
@@ -38,23 +42,42 @@ body {
     border-top: 1px dotted #ccc;
     }
     
-    /* Modifies all of the blog */
+    /* Modifies both of the blosg */
     article {
     border-bottom: 1px dotted #000;
     }
     
-    h2{
-        font-size: 3em;
+    .fam-questions{
+        font-size: 1.4em;
+        color: black;
+        margin: 0;
+    }
+
     
+    /* Contact page html */
+    div{
+        font-size: 2em;
+        color: black;
+
     }
     
-    /* Contact html */
     
     
     
     
-    
-    
-    /* About html */
+    /* About page html */
+    #about{
+     font-size: 3em;
+     color: black;
+}
+    #fun-facts{
+        font-size: 3em;
+        color: black;
+    }
+
+    ul{
+        font-size: 1.4em;
+        color: black;
+    }
     
     
