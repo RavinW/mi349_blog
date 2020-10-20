@@ -1,0 +1,60 @@
+html{
+    background: #e3e3e3;
+}
+
+
+
+
+/* Type selector: body, h1, & p
+    Id selector: blog
+    Class selector: blog posts
+*/
+
+/* Index html */
+
+/* Modifies all of the document */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+    }
+    
+    /* Modifies all of the h1 tags */
+    h1 {
+    font-size: 3em;
+    margin: 0;
+    }
+    
+    /* Modifies all of the paragraphs */
+    p{
+    line-height: 1.4em;
+    }
+    
+    /* Modifies all of the entire blog  */
+    #blog {
+    border-top: 1px dotted #ccc;
+    }
+    
+    /* Modifies all of the blog */
+    article {
+    border-bottom: 1px dotted #000;
+    }
+    
+    h2{
+        font-size: 3em;
+    
+    }
+    
+    /* Contact html */
+    
+    
+    
+    
+    
+    
+    /* About html */
+    
+    
