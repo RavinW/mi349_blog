@@ -12,7 +12,10 @@ html{
 */
 
 /* Index html */
+
+/* modifies whatever link is inside []*/
 a[title]{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     color: black;
 }
@@ -53,6 +56,13 @@ body {
         margin: 0;
     }
 
+    .friend-questions{
+        font-size: 1.4em;
+        color: black;
+        margin: 0;
+    }
+    }
+
     
     /* Contact page html */
     div{
@@ -67,11 +77,11 @@ body {
     
     /* About page html */
     #about{
-     font-size: 3em;
+     font-size: 2em;
      color: black;
 }
     #fun-facts{
-        font-size: 3em;
+        font-size: 2em;
         color: black;
     }
 
