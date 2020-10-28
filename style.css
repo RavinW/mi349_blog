@@ -30,12 +30,12 @@ body {
 /* 1/3:Adds  A navigation header or sticky side bar*/
 
 .section-heading{
-background: rgb(0, 201, 0);
+background: rgb(0, 154, 201);
 position: sticky;
 top: 0px;
 }
 
-/*2/3: Adds flexbox column layout with padding & margins*/
+/* 2/3: Adds flexbox column layout with padding & margins */
 
 main{
 display: flex;
@@ -98,7 +98,7 @@ article{
     }
 
 
-   /* 3/3 Flex sections for contact form*/ 
+    /* 3/3 Flex sections into row for contact form*/ 
     
    form{
        display: flex;
@@ -108,7 +108,6 @@ article{
     
     
     /*Contact form flex but using classes instead of form
-    
     
     .Name-field{
         flex: 2;
