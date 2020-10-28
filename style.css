@@ -3,8 +3,6 @@ html{
 }
 
 
-
-
 /* Type selector: body, h1, div & p
     Id selector: #blog
     Class selector: .blog posts
@@ -24,11 +22,34 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 40px;
     padding: 40px;
-    color: black;;
+    color: black;
     border-top: 10px solid #242424;
     background: #fff;
     }
     
+/* 1/3:Adds  A navigation header or sticky side bar*/
+
+.section-heading{
+background: rgb(0, 201, 0);
+position: sticky;
+top: 0px;
+}
+
+/*2/3: Adds flexbox column layout with padding & margins*/
+
+main{
+display: flex;
+}
+
+article{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+/**/
+
     /* Modifies all of the h1 tags */
     h1 {
     font-size: 3em;
@@ -45,7 +66,7 @@ body {
     border-top: 1px dotted #ccc;
     }
     
-    /* Modifies both of the blosg */
+    /* Modifies both of the blogs */
     article {
     border-bottom: 1px dotted #000;
     }
@@ -54,12 +75,18 @@ body {
         font-size: 2.5em;
         color: black;
         margin: 0;
+
+/*effects specific articles size display*/
+        flex: 3;
     }
 
     .friend-questions{
         font-size: 2.5em;
         color: black;
         margin: 0;
+
+/*effects specific articles size display*/
+        flex: 3;
     }
     
 
@@ -67,13 +94,43 @@ body {
     /* Contact page html */
     div{
         font-size: 2em;
-        color: black;
-
+        color: black;  
     }
+
+
+   /* 3/3 Flex sections for contact form*/ 
+    
+   form{
+       display: flex;
+   }
     
     
     
     
+    /*Contact form flex but using classes instead of form
+    
+    
+    .Name-field{
+        flex: 2;
+    }
+
+    .Email-field{
+        flex: 2;
+    }
+
+    .Options{
+        flex: 2;
+    }
+
+    .Text-Area{
+        flex: 2;
+    }
+
+    .Submit-button{
+        flex: 2;
+    }*/
+
+
     
     /* About page html */
     #about{
