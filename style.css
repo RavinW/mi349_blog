@@ -145,5 +145,16 @@ article{
         font-size: 1.4em;
         color: black;
     }
+
+    /*Media Queries. Allows you to target specific rules to browser features. Rules will Apply to any browser that
+     is equal to or less than (this many pixels) */
+     @media(max-width: 400px){
+        .section-heading{
+            background: rgb(0, 188, 201);
+            position: sticky;
+            top: 0px;
+            }
+
+    }
     
     
